@@ -1,0 +1,39 @@
+span{
+    color: #2196F3;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #2196F3;
+}
+
+.hero{
+    background-color: #2F303A;
+    color: white;
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.job{
+    color: #757575;
+}
+
+.info{
+    color: #FFFFFF;
+    opacity: 60%;
+}
+
+footer, footer a{
+    background-color: #2F303A;
+    color: white;
+}
+
+.main{
+    background-color: #F5F4FA;
+}
