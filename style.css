@@ -6,6 +6,7 @@
    --logo-color: #000000;
    --section-color: #2F303A;
    --team-section-color: #ECECEC; 
+   --buttons-background-color: #F5F4FA;
 }
 
 body {
@@ -73,3 +74,8 @@ footer {
     color: var(--heading-color);
 }
 
+.main-list-item {
+    color: var(--heading-color);
+    background-color: var(--buttons-background-color);
+    text-decoration: none;
+}
