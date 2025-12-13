@@ -1,39 +1,75 @@
-span{
-    color: #2196F3;
+:root{
+  --heading-color:#212121;
+  --text-color: #757575;
+   --background-color: #FFFFFF;
+   --details-color: #2196F3;
+   --logo-color: #000000;
+   --section-color: #2F303A;
+   --team-section-color: #ECECEC; 
 }
 
-a{
+body {
+  background-color: var(--background-color);
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+span {
+    color: var(--details-color);
+}
+
+nav:hover {
+    color: var(--details-color);
+}
+
+h2, h3 {
+    color: var(--heading-color);
+}
+
+p {
+    color: var(--text-color);
+}
+
+.team {
+    background-color: var(--team-section-color);
+}
+
+.logo, .logo a {
+    color: var(--logo-color);
+}
+
+header a {
     text-decoration: none;
-    color: black;
+    color: var(--heading-color);
 }
 
-a:hover{
-    color: #2196F3;
+.hero-section-button {
+    background-color: var(--details-color);
+    color: var(--background-color);
+    text-decoration: none;
 }
 
-.hero{
-    background-color: #2F303A;
-    color: white;
+footer {
+    background-color: var(--section-color);
 }
 
-.team{
-    background-color: #F5F4FA;
+.white {
+    color: var(--background-color);
+    font-style: normal;
 }
 
-.job{
-    color: #757575;
-}
-
-.info{
-    color: #FFFFFF;
+.info {
+    color: var(--background-color);
     opacity: 60%;
+    font-style: normal;
 }
 
-footer, footer a{
-    background-color: #2F303A;
-    color: white;
+.footer-logo{
+    text-decoration: none;
+    color: var(--background-color);
 }
 
-.main{
-    background-color: #F5F4FA;
+.team-name {
+    color: var(--heading-color);
 }
+
