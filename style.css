@@ -37,6 +37,7 @@ p {
 
 .logo, .logo a {
     color: var(--logo-color);
+    font-family: 'Raleway', sans-serif;
 }
 
 header a {
@@ -68,6 +69,7 @@ footer {
 .footer-logo{
     text-decoration: none;
     color: var(--background-color);
+    font-family: 'Raleway', sans-serif;  
 }
 
 .team-name {
