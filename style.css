@@ -81,3 +81,9 @@ footer {
     background-color: var(--buttons-background-color);
     text-decoration: none;
 }
+
+.container {
+    max-width: 1570px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
