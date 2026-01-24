@@ -33,6 +33,7 @@ p {
 
 .team {
     background-color: var(--team-section-color);
+    display: flex;
 }
 
 .logo, .logo a {
@@ -92,8 +93,33 @@ ul {
     list-style: none;
 }
 
-.work-list img {
+.work-list-item {
      width: 370px;
      height: 294px;
+     
 }
 
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.important-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects-list-item {
+    height: 404px;
+    width: 370px;
+}
+
+.main-list {
+    display: flex;
+    flex-wrap: wrap;
+}
