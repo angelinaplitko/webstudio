@@ -87,3 +87,13 @@ footer {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+ul {
+    list-style: none;
+}
+
+.work-list img {
+     width: 370px;
+     height: 294px;
+}
+
