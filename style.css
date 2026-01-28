@@ -44,6 +44,7 @@ p {
 header a {
     text-decoration: none;
     color: var(--heading-color);
+    justify-content: space-around;
 }
 
 .hero-section-button {
@@ -62,10 +63,17 @@ footer {
 }
 
 .info {
-    color: var(--background-color);
-    opacity: 60%;
+    color: var(--text-color);
     font-style: normal;
 }
+
+header  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 .footer-logo{
     text-decoration: none;
@@ -122,4 +130,8 @@ ul {
 .main-list {
     display: flex;
     flex-wrap: wrap;
+}
+
+.hero-container {
+    align-items: center;
 }
